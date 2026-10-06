@@ -12,8 +12,8 @@ OUT = os.path.join(HERE, '..')
 L = json.load(open(os.path.join(HERE, 'L.json'), encoding='utf8'))
 
 # ---- impostazioni -----------------------------------------------------------
-SITE_URL = 'https://DOMINIO-DA-DECIDERE.example'   # sostituire quando il dominio e' scelto
-NOINDEX = True                                       # mettere False al lancio
+SITE_URL = 'https://transporti.gealoalor.com'
+NOINDEX = False                                      # True = sito nascosto a Google
 BRAND = 'Senad Transporti'
 BUSINESS = {                                         # campi vuoti = restano vuoti
     'phone': '', 'email': '', 'address': '', 'hours': '',
@@ -49,6 +49,11 @@ SCHEMA_DESC = {
     'en': 'Private transfers across Crete', 'el': 'Ιδιωτικές μεταφορές σε όλη την Κρήτη',
     'de': 'Privattransfers auf ganz Kreta', 'ru': 'Частные трансферы по всему Криту',
 }
+
+# pezzi di HTML con virgolette, fuori dalle f-string (cosi' funziona anche con Python 3.11 e precedenti)
+CUR_PAGE = ' aria-current="page"'
+CUR_LANG = ' aria-current="true"'
+NO_TOP = ' style="margin-top:0"'
 
 PTS_ORDER = ['chq', 'her', 'port', 'cha', 'ret', 'hei', 'agn', 'sit', 'che']
 SEL_KEYS = PTS_ORDER
@@ -121,9 +126,9 @@ def head(lang, t, page, title, desc, extra_head=''):
 
 def header(lang, t, page):
     nav = ''.join(
-        f'<a href="{p}.html"{" aria-current=\"page\"" if p == page else ""}>{e(t["nav"][NAVKEY[p]])}</a>' for p in PAGES)
+        f'<a href="{p}.html"{CUR_PAGE if p == page else ""}>{e(t["nav"][NAVKEY[p]])}</a>' for p in PAGES)
     langs = ''.join(
-        f'<a href="../{l}/{page}.html" hreflang="{l}" lang="{l}"{" aria-current=\"true\"" if l == lang else ""}>{LANG_LABEL[l]}</a>'
+        f'<a href="../{l}/{page}.html" hreflang="{l}" lang="{l}"{CUR_LANG if l == lang else ""}>{LANG_LABEL[l]}</a>'
         for l in LANGS)
     return f'''<body class="nojs">
 <a class="skip" href="#main">{e(SKIP[lang])}</a>
@@ -152,7 +157,7 @@ def scripts(lang, t, page):
     }
     site = {
         'lang': lang, 'pts': {k: lab(t, k) for k in PTS_ORDER}, 'lg': t['lg'], 'mapnote': t['mapnote'],
-        'mapLabel': ', '.join(t['places']), 'formEndpoint': '', 'chat': chat,
+        'mapLabel': ', '.join(t['places']), 'formEndpoint': '', 'sameErr': t['sameErr'], 'chat': chat,
     }
     data = json.dumps(site, ensure_ascii=False)
     return f'''<script>document.body.classList.remove('nojs');window.SITE={data};</script>
@@ -174,8 +179,10 @@ def band(t, bg, pos, h1=None, lead=None, h2=None, cls='bgband head', inner_extra
     return f'<div class="{cls}" data-bg="../img/{bg}.webp" data-pos="{pos}"><div class="inner">{inner}</div></div>\n'
 
 
-def cards(items):
-    return ''.join(f'<article class="card"><h3>{e(a)}</h3><p>{e(b)}</p></article>' for a, b in items)
+def cards(items, tag='h3'):
+    # tag='h2' quando sopra non c'e' un titolo h2 (ordine dei titoli corretto per Google e lettori di schermo)
+    cls = ' class="as-h3"' if tag == 'h2' else ''
+    return ''.join(f'<article class="card"><{tag}{cls}>{e(a)}</{tag}><p>{e(b)}</p></article>' for a, b in items)
 
 
 ICO = [
@@ -189,7 +196,7 @@ def three(t):
     out = ''
     for i, v in enumerate(t['v']):
         out += (f'<div class="v c{i+1}"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true">{ICO[i]}</svg></span>'
-                f'<h3>{e(v[0])}</h3><p>{e(v[1])}</p></div>')
+                f'<h2 class="as-h3">{e(v[0])}</h2><p>{e(v[1])}</p></div>')
     return f'<div class="three">{out}</div>\n'
 
 
@@ -217,6 +224,12 @@ def cta_band(t):
 
 def map_box(extra_style=''):
     return f'<div class="bigmap" data-map{extra_style}></div>\n'
+
+
+def lang_options(lang):
+    """Lingua del cliente: preselezionata quella della pagina."""
+    names = (('el', 'Ελληνικά'), ('en', 'English'), ('de', 'Deutsch'), ('ru', 'Русский'))
+    return ''.join(f'<option{" selected" if l == lang else ""}>{n}</option>' for l, n in names)
 
 
 def options(t, selected):
@@ -254,10 +267,10 @@ def page_body(lang, t, page):
     if page == 'services':
         vehicles = ''.join(f'<article class="card"><h3>{e(v)}</h3>{empty(t)}</article>' for v in t['vl'])
         return (band(t, 'road', '50% 88%', h1=t['hs'], lead=t['hsd']) +
-                f'<section><div class="grid">{cards(t["s"])}</div><h2 style="margin-top:3rem">{e(t["veh"])}</h2><div class="grid">{vehicles}</div></section>\n')
+                f'<section><div class="grid">{cards(t["s"], "h2")}</div><h2 style="margin-top:3rem">{e(t["veh"])}</h2><div class="grid">{vehicles}</div></section>\n')
     if page == 'routes':
         return (band(t, 'bay', '50% 50%', h1=t['rt'], lead=t['rsub']) +
-                f'<section>{map_box(" style=\"margin-top:0\"")}<div class="grid">{route_cards(t)}</div></section>\n')
+                f'<section>{map_box(NO_TOP)}<div class="grid">{route_cards(t)}</div></section>\n')
     if page == 'book':
         f = t['f']
         form = f'''<form id="bf" novalidate>
@@ -270,14 +283,14 @@ def page_body(lang, t, page):
  <label for="bname">{e(f['name'])}<input id="bname" name="name" required autocomplete="name"></label>
  <label for="bemail">{e(f['email'])}<input id="bemail" name="email" type="email" required autocomplete="email"></label>
  <label for="bphone">{e(f['phone'])}<input id="bphone" name="phone" type="tel" autocomplete="tel"></label>
- <label for="blang">{e(f['lang'])}<select id="blang" name="language"><option>Ελληνικά</option><option>English</option><option>Deutsch</option><option>Русский</option></select></label>
+ <label for="blang">{e(f['lang'])}<select id="blang" name="language">{lang_options(lang)}</select></label>
  <label class="full" for="bnote">{e(f['note'])}<textarea id="bnote" name="note" rows="3"></textarea></label>
  <input class="trap" id="bhp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
  <div class="full"><button class="btn sun" type="submit">{e(t['send'])}</button></div>
  <p class="ok full" id="bok" hidden>{e(t['sent'])}</p>
 </form>'''
         return (band(t, 'bay', '50% 40%', h1=t['bt'], lead=t['bsub']) +
-                f'<section>{map_box(" style=\"margin-top:0\"")}{form}</section>\n')
+                f'<section>{map_box(NO_TOP)}{form}</section>\n')
     if page == 'about':
         return (band(t, 'lighthouse', '50% 64%', h1=t['at']) +
                 f'<section><p>{e(t["ap1"])}</p><p class="empty" style="margin-top:.75rem">{e(t["ap2"])}</p>'
@@ -295,9 +308,9 @@ def page_body(lang, t, page):
             if BUSINESS[key]:
                 soc += f'<a href="{e(BUSINESS[key])}" rel="noopener" target="_blank">{name}</a>'
             else:
-                soc += f'<a href="contact.html" aria-disabled="true" title="{e(t["empty"])}">{name}</a>'
+                soc += f'<a aria-disabled="true" title="{e(t["empty"])}">{name}</a>'   # senza href: non cliccabile finche' manca l'indirizzo
         return (band(t, 'road', '50% 85%', h1=t['ct']) +
-                f'<section><dl>{rows}</dl><h3>{e(t["cl"]["soc"])}</h3><div class="social">{soc}</div>'
+                f'<section><dl>{rows}</dl><h2 class="as-h3">{e(t["cl"]["soc"])}</h2><div class="social">{soc}</div>'
                 f'<p class="empty" style="margin-top:.5rem">{e(t["empty"])}</p></section>\n')
     raise ValueError(page)
 
@@ -310,7 +323,7 @@ def legal_body(lang, t, page):
     if page == 'privacy':
         out += f'<p class="legal-note">{e(PRIVACY_NOTE[lang])}</p>'
     for h, txt in items:
-        out += f'<h3>{e(h)}</h3><p>{e(txt)}</p>' if txt else f'<h3>{e(h)}</h3><p>{empty(t)}</p>'
+        out += f'<h2 class="as-h3">{e(h)}</h2><p>{e(txt) if txt else empty(t)}</p>'
     if page == 'impressum':
         out += '<dl>' + ''.join(f'<dt>{e(n)}</dt><dd style="margin:0">{empty(t)}</dd>' for n in g['fields']) + '</dl>'
     return band(t, 'lighthouse', '50% 60%', h1=name) + f'<section class="legal">{out}</section>\n'

@@ -216,7 +216,7 @@
    ],
    "about": [
     "About Senad Transporti",
-    "Local drivers for transfers across Crete."
+    "Local drivers for private airport, port and hotel transfers across Crete, in four languages."
    ],
    "faq": [
     "Transfer questions | Senad Transporti",
@@ -240,7 +240,8 @@
    "Venetian lighthouse in the harbour of Chania",
    "Mountain road in Crete"
   ],
-  "crete": "Crete"
+  "crete": "Crete",
+  "sameErr": "Start and destination must be different."
  },
  "el": {
   "nav": {
@@ -459,7 +460,7 @@
    ],
    "about": [
     "Σχετικά με τη Senad Transporti",
-    "Τοπικοί οδηγοί για μεταφορές σε όλη την Κρήτη."
+    "Τοπικοί οδηγοί για ιδιωτικές μεταφορές από αεροδρόμιο, λιμάνι και ξενοδοχείο σε όλη την Κρήτη, σε τέσσερις γλώσσες."
    ],
    "faq": [
     "Ερωτήσεις για μεταφορές | Senad Transporti",
@@ -483,7 +484,8 @@
    "Ενετικός φάρος στο λιμάνι των Χανίων",
    "Ορεινός δρόμος στην Κρήτη"
   ],
-  "crete": "Κρήτη"
+  "crete": "Κρήτη",
+  "sameErr": "Η αφετηρία και ο προορισμός πρέπει να είναι διαφορετικά."
  },
  "de": {
   "nav": {
@@ -702,7 +704,7 @@
    ],
    "about": [
     "Über Senad Transporti",
-    "Fahrer von hier für Transfers auf ganz Kreta."
+    "Fahrer von hier für private Flughafen-, Hafen- und Hoteltransfers auf ganz Kreta, in vier Sprachen."
    ],
    "faq": [
     "Fragen zum Transfer | Senad Transporti",
@@ -726,7 +728,8 @@
    "Venezianischer Leuchtturm im Hafen von Chania",
    "Bergstraße auf Kreta"
   ],
-  "crete": "Kreta"
+  "crete": "Kreta",
+  "sameErr": "Start und Ziel müssen verschieden sein."
  },
  "ru": {
   "nav": {
@@ -945,7 +948,7 @@
    ],
    "about": [
     "О Senad Transporti",
-    "Местные водители для трансферов по всему Криту."
+    "Местные водители для частных трансферов из аэропорта, порта и отеля по всему Криту, на четырёх языках."
    ],
    "faq": [
     "Вопросы о трансфере | Senad Transporti",
@@ -969,6 +972,7 @@
    "Венецианский маяк в гавани Ханьи",
    "Горная дорога на Крите"
   ],
-  "crete": "Крит"
+  "crete": "Крит",
+  "sameErr": "Пункт отправления и пункт назначения должны отличаться."
  }
 }

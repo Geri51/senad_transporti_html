@@ -1,0 +1,5 @@
+# Sito non ancora pubblicato: tutto bloccato. Al lancio cancellare la riga Disallow e mettere NOINDEX=False in build_html.py
+User-agent: *
+Disallow: /
+
+Sitemap: https://DOMINIO-DA-DECIDERE.example/sitemap.xml

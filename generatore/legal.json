@@ -1,0 +1,382 @@
+{
+ "en": {
+  "cookieName": "Cookies",
+  "fields": [
+   "Company name",
+   "Address",
+   "Contact",
+   "Licence number",
+   "Tax / VAT number",
+   "Responsible for content"
+  ],
+  "impressum": [
+   [
+    "Legal notice",
+    "Information about the provider required by law. The company fills in the fields below."
+   ]
+  ],
+  "privacy": [
+   [
+    "Who is responsible",
+    "The company named in the legal notice (Impressum)."
+   ],
+   [
+    "Data we collect",
+    "Through the booking form: name, email, phone (optional), route, date, time, number of passengers and bags, language and notes. The chat gives fixed answers in your browser and does not send what you type."
+   ],
+   [
+    "Why we use it",
+    "To reply to your request and to organise your transfer."
+   ],
+   [
+    "How long we keep it",
+    ""
+   ],
+   [
+    "Who receives it",
+    ""
+   ],
+   [
+    "Your rights",
+    "You can ask for access, correction, deletion, restriction or portability of your data, and object to its use. You can complain to the data protection authority."
+   ],
+   [
+    "Fonts and external services",
+    "Fonts are stored on this site. No data is sent to Google or other external services for fonts."
+   ]
+  ],
+  "cookies": [
+   [
+    "Short answer",
+    "This site does not use cookies for statistics, advertising or tracking, so no consent banner is shown."
+   ],
+   [
+    "If this changes",
+    "If statistics, embedded maps or videos are added, this page and a consent banner must be updated before they go live."
+   ]
+  ],
+  "cookiesAdm": [
+   "Technical cookie",
+   "The staff login uses one technical cookie to keep the session. Visitors do not receive it."
+  ],
+  "terms": [
+   [
+    "Service",
+    "Private passenger transfers in Crete. You send a request and receive the price before the trip is confirmed."
+   ],
+   [
+    "Price and payment",
+    ""
+   ],
+   [
+    "Cancellation",
+    ""
+   ],
+   [
+    "Delays and waiting time",
+    ""
+   ],
+   [
+    "Passengers and luggage",
+    ""
+   ],
+   [
+    "Child seats",
+    ""
+   ],
+   [
+    "Liability",
+    ""
+   ],
+   [
+    "Right of withdrawal (Widerruf)",
+    "To be checked by the professional: contracts for passenger transport on a specific date are normally excluded from the statutory 14-day withdrawal right."
+   ]
+  ]
+ },
+ "de": {
+  "cookieName": "Cookies",
+  "fields": [
+   "Firmenname",
+   "Adresse",
+   "Kontakt",
+   "Lizenznummer",
+   "Steuer-/USt-IdNr.",
+   "Verantwortlich für den Inhalt"
+  ],
+  "impressum": [
+   [
+    "Impressum",
+    "Gesetzlich vorgeschriebene Angaben zum Anbieter. Das Unternehmen ergänzt die Felder unten."
+   ]
+  ],
+  "privacy": [
+   [
+    "Verantwortlicher",
+    "Das im Impressum genannte Unternehmen."
+   ],
+   [
+    "Welche Daten wir erheben",
+    "Über das Buchungsformular: Name, E-Mail, Telefon (freiwillig), Strecke, Datum, Uhrzeit, Anzahl der Personen und Gepäckstücke, Sprache und Hinweise. Der Chat gibt feste Antworten in Ihrem Browser und sendet Ihre Eingaben nicht ab."
+   ],
+   [
+    "Wofür wir sie nutzen",
+    "Um Ihre Anfrage zu beantworten und Ihre Fahrt zu organisieren."
+   ],
+   [
+    "Wie lange wir sie speichern",
+    ""
+   ],
+   [
+    "Wer sie erhält",
+    ""
+   ],
+   [
+    "Ihre Rechte",
+    "Sie können Auskunft, Berichtigung, Löschung, Einschränkung oder Übertragbarkeit Ihrer Daten verlangen und der Nutzung widersprechen. Sie können sich bei der Datenschutzbehörde beschweren."
+   ],
+   [
+    "Schriften und externe Dienste",
+    "Die Schriften liegen auf dieser Website. Für Schriften werden keine Daten an Google oder andere externe Dienste gesendet."
+   ]
+  ],
+  "cookies": [
+   [
+    "Kurz gesagt",
+    "Diese Website verwendet keine Cookies für Statistik, Werbung oder Tracking, daher wird kein Einwilligungsbanner angezeigt."
+   ],
+   [
+    "Falls sich das ändert",
+    "Werden Statistik, eingebettete Karten oder Videos ergänzt, müssen diese Seite und ein Einwilligungsbanner vor dem Start angepasst werden."
+   ]
+  ],
+  "cookiesAdm": [
+   "Technisches Cookie",
+   "Der Mitarbeiter-Login nutzt ein technisches Cookie, um die Sitzung zu halten. Besucher erhalten es nicht."
+  ],
+  "terms": [
+   [
+    "Leistung",
+    "Private Personentransfers auf Kreta. Sie senden eine Anfrage und erhalten den Preis, bevor die Fahrt bestätigt wird."
+   ],
+   [
+    "Preis und Zahlung",
+    ""
+   ],
+   [
+    "Stornierung",
+    ""
+   ],
+   [
+    "Verspätungen und Wartezeit",
+    ""
+   ],
+   [
+    "Fahrgäste und Gepäck",
+    ""
+   ],
+   [
+    "Kindersitze",
+    ""
+   ],
+   [
+    "Haftung",
+    ""
+   ],
+   [
+    "Widerrufsrecht",
+    "Vom Fachmann zu prüfen: Verträge über Personenbeförderung zu einem bestimmten Termin sind in der Regel vom gesetzlichen 14-tägigen Widerrufsrecht ausgenommen."
+   ]
+  ]
+ },
+ "el": {
+  "cookieName": "Cookies",
+  "fields": [
+   "Επωνυμία",
+   "Διεύθυνση",
+   "Επικοινωνία",
+   "Αριθμός άδειας",
+   "ΑΦΜ",
+   "Υπεύθυνος περιεχομένου"
+  ],
+  "impressum": [
+   [
+    "Νομικές πληροφορίες",
+    "Στοιχεία του παρόχου που απαιτούνται από τον νόμο. Η εταιρεία συμπληρώνει τα παρακάτω πεδία."
+   ]
+  ],
+  "privacy": [
+   [
+    "Υπεύθυνος",
+    "Η εταιρεία που αναφέρεται στις νομικές πληροφορίες."
+   ],
+   [
+    "Ποια στοιχεία συλλέγουμε",
+    "Μέσω της φόρμας κράτησης: όνομα, email, τηλέφωνο (προαιρετικό), διαδρομή, ημερομηνία, ώρα, αριθμός επιβατών και αποσκευών, γλώσσα και σημειώσεις. Το chat δίνει έτοιμες απαντήσεις στον browser σας και δεν στέλνει όσα γράφετε."
+   ],
+   [
+    "Γιατί τα χρησιμοποιούμε",
+    "Για να απαντήσουμε στο αίτημά σας και να οργανώσουμε τη μεταφορά σας."
+   ],
+   [
+    "Πόσο καιρό τα φυλάσσουμε",
+    ""
+   ],
+   [
+    "Ποιος τα λαμβάνει",
+    ""
+   ],
+   [
+    "Τα δικαιώματά σας",
+    "Μπορείτε να ζητήσετε πρόσβαση, διόρθωση, διαγραφή, περιορισμό ή φορητότητα των δεδομένων σας και να αντιταχθείτε στη χρήση τους. Μπορείτε να υποβάλετε καταγγελία στην αρχή προστασίας δεδομένων."
+   ],
+   [
+    "Γραμματοσειρές και εξωτερικές υπηρεσίες",
+    "Οι γραμματοσειρές βρίσκονται στον ίδιο τον ιστότοπο. Δεν στέλνονται δεδομένα στη Google ή σε άλλες εξωτερικές υπηρεσίες για τις γραμματοσειρές."
+   ]
+  ],
+  "cookies": [
+   [
+    "Εν συντομία",
+    "Ο ιστότοπος δεν χρησιμοποιεί cookies για στατιστικά, διαφημίσεις ή παρακολούθηση, γι’ αυτό δεν εμφανίζεται banner συναίνεσης."
+   ],
+   [
+    "Αν αλλάξει αυτό",
+    "Αν προστεθούν στατιστικά, ενσωματωμένοι χάρτες ή βίντεο, αυτή η σελίδα και ένα banner συναίνεσης πρέπει να ενημερωθούν πριν τεθούν σε λειτουργία."
+   ]
+  ],
+  "cookiesAdm": [
+   "Τεχνικό cookie",
+   "Η σύνδεση του προσωπικού χρησιμοποιεί ένα τεχνικό cookie για τη διατήρηση της συνεδρίας. Οι επισκέπτες δεν το λαμβάνουν."
+  ],
+  "terms": [
+   [
+    "Υπηρεσία",
+    "Ιδιωτικές μεταφορές επιβατών στην Κρήτη. Στέλνετε αίτημα και λαμβάνετε την τιμή πριν επιβεβαιωθεί η διαδρομή."
+   ],
+   [
+    "Τιμή και πληρωμή",
+    ""
+   ],
+   [
+    "Ακύρωση",
+    ""
+   ],
+   [
+    "Καθυστερήσεις και αναμονή",
+    ""
+   ],
+   [
+    "Επιβάτες και αποσκευές",
+    ""
+   ],
+   [
+    "Παιδικά καθίσματα",
+    ""
+   ],
+   [
+    "Ευθύνη",
+    ""
+   ],
+   [
+    "Δικαίωμα υπαναχώρησης (Widerruf)",
+    "Να ελεγχθεί από τον επαγγελματία: οι συμβάσεις μεταφοράς επιβατών για συγκεκριμένη ημερομηνία συνήθως εξαιρούνται από το νόμιμο δικαίωμα υπαναχώρησης 14 ημερών."
+   ]
+  ]
+ },
+ "ru": {
+  "cookieName": "Cookie",
+  "fields": [
+   "Название компании",
+   "Адрес",
+   "Контакты",
+   "Номер лицензии",
+   "Налоговый номер / НДС",
+   "Ответственный за содержание"
+  ],
+  "impressum": [
+   [
+    "Правовая информация",
+    "Сведения о поставщике услуг, которые требует закон. Компания заполняет поля ниже."
+   ]
+  ],
+  "privacy": [
+   [
+    "Ответственный",
+    "Компания, указанная в правовой информации."
+   ],
+   [
+    "Какие данные мы собираем",
+    "Через форму заказа: имя, email, телефон (по желанию), маршрут, дата, время, число пассажиров и мест багажа, язык и примечания. Чат даёт готовые ответы в вашем браузере и не отправляет то, что вы пишете."
+   ],
+   [
+    "Зачем мы их используем",
+    "Чтобы ответить на ваш запрос и организовать трансфер."
+   ],
+   [
+    "Как долго мы их храним",
+    ""
+   ],
+   [
+    "Кто их получает",
+    ""
+   ],
+   [
+    "Ваши права",
+    "Вы можете потребовать доступ, исправление, удаление, ограничение обработки или перенос ваших данных и возразить против их использования. Можно подать жалобу в орган по защите данных."
+   ],
+   [
+    "Шрифты и внешние сервисы",
+    "Шрифты хранятся на самом сайте. Для шрифтов данные не передаются Google или другим внешним сервисам."
+   ]
+  ],
+  "cookies": [
+   [
+    "Коротко",
+    "Сайт не использует cookie для статистики, рекламы или отслеживания, поэтому баннер согласия не показывается."
+   ],
+   [
+    "Если это изменится",
+    "Если добавятся статистика, встроенные карты или видео, эту страницу и баннер согласия нужно обновить до запуска."
+   ]
+  ],
+  "cookiesAdm": [
+   "Технический cookie",
+   "Вход для сотрудников использует один технический cookie для сохранения сеанса. Посетители его не получают."
+  ],
+  "terms": [
+   [
+    "Услуга",
+    "Частные трансферы пассажиров на Крите. Вы отправляете заявку и узнаёте цену до подтверждения поездки."
+   ],
+   [
+    "Цена и оплата",
+    ""
+   ],
+   [
+    "Отмена",
+    ""
+   ],
+   [
+    "Опоздания и время ожидания",
+    ""
+   ],
+   [
+    "Пассажиры и багаж",
+    ""
+   ],
+   [
+    "Детские кресла",
+    ""
+   ],
+   [
+    "Ответственность",
+    ""
+   ],
+   [
+    "Право на отказ (Widerruf)",
+    "Должен проверить специалист: договоры на перевозку пассажиров на определённую дату обычно исключены из законного 14-дневного права на отказ."
+   ]
+  ]
+ }
+}

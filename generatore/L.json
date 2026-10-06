@@ -1,0 +1,974 @@
+{
+ "en": {
+  "nav": {
+   "home": "Home",
+   "services": "Services",
+   "routes": "Routes",
+   "book": "Book",
+   "about": "About",
+   "faq": "FAQ",
+   "contact": "Contact"
+  },
+  "places": [
+   "Chania",
+   "Rethymno",
+   "Heraklion",
+   "Agios Nikolaos",
+   "Sitia"
+  ],
+  "her": "Heraklion Airport",
+  "chq": "Chania Airport",
+  "port": "Heraklion Port",
+  "h1": "Private transfers across Crete",
+  "hsub": "Pick-ups from the airport, the port and your hotel, with a local driver. Request a transfer in two minutes.",
+  "cta": "Request a transfer",
+  "cta2": "See routes",
+  "v": [
+   [
+    "Price confirmed first",
+    "You get the price before you confirm the ride."
+   ],
+   [
+    "Driver at arrivals",
+    "Your driver waits at the meeting point."
+   ],
+   [
+    "4 languages",
+    "We answer in Greek, English, German and Russian."
+   ]
+  ],
+  "hs": "Our services",
+  "hsd": "Draft list. Final services are agreed with the company.",
+  "s": [
+   [
+    "Airport and port transfers",
+    "Heraklion, Chania and Sitia airports and the main ports."
+   ],
+   [
+    "Hotel to hotel",
+    "Door to door anywhere on the island."
+   ],
+   [
+    "Excursions",
+    "Day trips with a driver who knows the roads."
+   ],
+   [
+    "Driver by the hour",
+    "A car and a driver for your own plan."
+   ]
+  ],
+  "veh": "Vehicles",
+  "vl": [
+   "Car",
+   "Minivan",
+   "Minibus"
+  ],
+  "rt": "Popular routes",
+  "rsub": "Choose a route and send a request. The price comes back before you confirm.",
+  "rq": "Request this route",
+  "routes": [
+   [
+    "her",
+    "Chersonissos"
+   ],
+   [
+    "her",
+    "Agios Nikolaos"
+   ],
+   [
+    "chq",
+    "Rethymno"
+   ],
+   [
+    "chq",
+    "Chania"
+   ],
+   [
+    "port",
+    "her"
+   ],
+   [
+    "her",
+    "Heraklion"
+   ]
+  ],
+  "bt": "Request a transfer",
+  "bsub": "Fill in the form. We reply with the price and confirm your booking.",
+  "f": {
+   "from": "From",
+   "to": "To",
+   "date": "Date",
+   "time": "Time",
+   "pax": "Passengers",
+   "bags": "Bags",
+   "name": "Name",
+   "email": "Email",
+   "phone": "Phone",
+   "lang": "Your language",
+   "note": "Notes (flight number, child seats)"
+  },
+  "send": "Send request",
+  "sent": "Demo: this form does not send or save anything yet.",
+  "at": "About us",
+  "ap1": "Senad and his team drive guests across Crete.",
+  "ap2": "Company story, years of experience and licence number go here once the client provides them.",
+  "ft": "Questions",
+  "faq": [
+   [
+    "How do I book?",
+    "Send the request form. We reply with the price and confirm the ride."
+   ],
+   [
+    "Can I change the booking?",
+    "Write to us with the new details and we confirm the change."
+   ],
+   [
+    "Do you provide child seats?",
+    "Tell us the children's ages in the notes and we confirm."
+   ],
+   [
+    "How much luggage can I bring?",
+    "Tell us the number of bags in the form so we send the right vehicle."
+   ],
+   [
+    "How do I pay?",
+    "The payment method is stated in your booking confirmation."
+   ]
+  ],
+  "ct": "Contact",
+  "cl": {
+   "phone": "Phone",
+   "email": "Email",
+   "addr": "Address",
+   "hours": "Opening hours",
+   "soc": "Follow us"
+  },
+  "empty": "to be added",
+  "legal": [
+   "Imprint",
+   "Privacy",
+   "Terms"
+  ],
+  "draft": "Legal texts are drafts to check with a professional.",
+  "chat": "Chat",
+  "chatHi": "Hello! Ask about booking, routes or contact.",
+  "chatIn": "Write a message",
+  "chatSend": "Send",
+  "q": [
+   "Book",
+   "Routes",
+   "Contact"
+  ],
+  "bot": {
+   "book": [
+    "Use the request form. It takes two minutes.",
+    "book"
+   ],
+   "price": [
+    "The price depends on the route. Send a request and you get it before you confirm.",
+    "book"
+   ],
+   "air": [
+    "Airport pick-ups are our main service. See the routes.",
+    "routes"
+   ],
+   "contact": [
+    "Here are the contact details.",
+    "contact"
+   ],
+   "bag": [
+    "Tell us the number of bags in the form so we send the right vehicle.",
+    "book"
+   ],
+   "child": [
+    "Write the children's ages in the notes and we confirm child seats.",
+    "book"
+   ],
+   "def": [
+    "I can help with booking, routes and contact. Which one?",
+    "home"
+   ]
+  },
+  "kw": {
+   "book": "book|reserv|request",
+   "price": "price|cost|fare|how much",
+   "air": "airport|flight|port",
+   "contact": "contact|phone|email|call",
+   "bag": "bag|luggage|suitcase",
+   "child": "child|kid|baby|seat"
+  },
+  "seo": {
+   "home": [
+    "Private transfers in Crete | Senad Transporti",
+    "Airport, port and hotel transfers across Crete with a local driver. Request your transfer online."
+   ],
+   "services": [
+    "Transfer services in Crete | Senad Transporti",
+    "Airport transfers, hotel to hotel, excursions and driver by the hour in Crete."
+   ],
+   "routes": [
+    "Crete transfer routes | Senad Transporti",
+    "Popular routes from Heraklion and Chania airports to the main resorts."
+   ],
+   "book": [
+    "Request a transfer in Crete | Senad Transporti",
+    "Send your trip details and get the price before you confirm."
+   ],
+   "about": [
+    "About Senad Transporti",
+    "Local drivers for transfers across Crete."
+   ],
+   "faq": [
+    "Transfer questions | Senad Transporti",
+    "Answers about booking, changes, luggage, child seats and payment."
+   ],
+   "contact": [
+    "Contact Senad Transporti",
+    "Phone, email and social pages of Senad Transporti in Crete."
+   ]
+  },
+  "lg": [
+   "Airport",
+   "Town",
+   "Our base"
+  ],
+  "whereT": "Where we are",
+  "mapnote": "schematic map",
+  "ph": "Photo: to be added",
+  "alt": [
+   "Turquoise bay on the coast of Crete",
+   "Venetian lighthouse in the harbour of Chania",
+   "Mountain road in Crete"
+  ],
+  "crete": "Crete"
+ },
+ "el": {
+  "nav": {
+   "home": "Αρχική",
+   "services": "Υπηρεσίες",
+   "routes": "Διαδρομές",
+   "book": "Κράτηση",
+   "about": "Σχετικά",
+   "faq": "Ερωτήσεις",
+   "contact": "Επικοινωνία"
+  },
+  "places": [
+   "Χανιά",
+   "Ρέθυμνο",
+   "Ηράκλειο",
+   "Άγιος Νικόλαος",
+   "Σητεία"
+  ],
+  "her": "Αεροδρόμιο Ηρακλείου",
+  "chq": "Αεροδρόμιο Χανίων",
+  "port": "Λιμάνι Ηρακλείου",
+  "h1": "Ιδιωτικές μεταφορές σε όλη την Κρήτη",
+  "hsub": "Παραλαβή από αεροδρόμιο, λιμάνι και ξενοδοχείο με τοπικό οδηγό. Ζητήστε μεταφορά σε δύο λεπτά.",
+  "cta": "Ζητήστε μεταφορά",
+  "cta2": "Δείτε διαδρομές",
+  "v": [
+   [
+    "Πρώτα η τιμή",
+    "Μαθαίνετε την τιμή πριν επιβεβαιώσετε."
+   ],
+   [
+    "Οδηγός στις αφίξεις",
+    "Ο οδηγός σας περιμένει στο σημείο συνάντησης."
+   ],
+   [
+    "4 γλώσσες",
+    "Απαντάμε στα ελληνικά, αγγλικά, γερμανικά και ρωσικά."
+   ]
+  ],
+  "hs": "Οι υπηρεσίες μας",
+  "hsd": "Πρόχειρη λίστα. Οι τελικές υπηρεσίες συμφωνούνται με την εταιρεία.",
+  "s": [
+   [
+    "Μεταφορές από αεροδρόμιο και λιμάνι",
+    "Αεροδρόμια Ηρακλείου, Χανίων και Σητείας και κύρια λιμάνια."
+   ],
+   [
+    "Από ξενοδοχείο σε ξενοδοχείο",
+    "Από πόρτα σε πόρτα σε όλο το νησί."
+   ],
+   [
+    "Εκδρομές",
+    "Ημερήσιες εκδρομές με οδηγό που ξέρει τους δρόμους."
+   ],
+   [
+    "Οδηγός ανά ώρα",
+    "Αυτοκίνητο και οδηγός για το δικό σας πρόγραμμα."
+   ]
+  ],
+  "veh": "Οχήματα",
+  "vl": [
+   "Αυτοκίνητο",
+   "Βαν",
+   "Μικρό λεωφορείο"
+  ],
+  "rt": "Δημοφιλείς διαδρομές",
+  "rsub": "Επιλέξτε διαδρομή και στείλτε αίτημα. Η τιμή έρχεται πριν επιβεβαιώσετε.",
+  "rq": "Ζητήστε αυτή τη διαδρομή",
+  "routes": [
+   [
+    "her",
+    "Χερσόνησος"
+   ],
+   [
+    "her",
+    "Άγιος Νικόλαος"
+   ],
+   [
+    "chq",
+    "Ρέθυμνο"
+   ],
+   [
+    "chq",
+    "Χανιά"
+   ],
+   [
+    "port",
+    "her"
+   ],
+   [
+    "her",
+    "Ηράκλειο"
+   ]
+  ],
+  "bt": "Ζητήστε μεταφορά",
+  "bsub": "Συμπληρώστε τη φόρμα. Σας απαντάμε με την τιμή και επιβεβαιώνουμε την κράτηση.",
+  "f": {
+   "from": "Από",
+   "to": "Προς",
+   "date": "Ημερομηνία",
+   "time": "Ώρα",
+   "pax": "Επιβάτες",
+   "bags": "Αποσκευές",
+   "name": "Όνομα",
+   "email": "Email",
+   "phone": "Τηλέφωνο",
+   "lang": "Η γλώσσα σας",
+   "note": "Σημειώσεις (πτήση, παιδικά καθίσματα)"
+  },
+  "send": "Αποστολή αιτήματος",
+  "sent": "Demo: η φόρμα δεν στέλνει ούτε αποθηκεύει τίποτα ακόμη.",
+  "at": "Σχετικά με εμάς",
+  "ap1": "Ο Senad και η ομάδα του μεταφέρουν επισκέπτες σε όλη την Κρήτη.",
+  "ap2": "Εδώ μπαίνουν η ιστορία της εταιρείας, τα χρόνια εμπειρίας και ο αριθμός άδειας όταν τα δώσει ο πελάτης.",
+  "ft": "Ερωτήσεις",
+  "faq": [
+   [
+    "Πώς κάνω κράτηση;",
+    "Στείλτε τη φόρμα. Σας απαντάμε με την τιμή και επιβεβαιώνουμε τη διαδρομή."
+   ],
+   [
+    "Μπορώ να αλλάξω την κράτηση;",
+    "Γράψτε μας τα νέα στοιχεία και επιβεβαιώνουμε την αλλαγή."
+   ],
+   [
+    "Έχετε παιδικά καθίσματα;",
+    "Γράψτε τις ηλικίες των παιδιών στις σημειώσεις και επιβεβαιώνουμε."
+   ],
+   [
+    "Πόσες αποσκευές χωράνε;",
+    "Γράψτε τον αριθμό αποσκευών στη φόρμα για να στείλουμε το σωστό όχημα."
+   ],
+   [
+    "Πώς πληρώνω;",
+    "Ο τρόπος πληρωμής αναγράφεται στην επιβεβαίωση της κράτησης."
+   ]
+  ],
+  "ct": "Επικοινωνία",
+  "cl": {
+   "phone": "Τηλέφωνο",
+   "email": "Email",
+   "addr": "Διεύθυνση",
+   "hours": "Ώρες λειτουργίας",
+   "soc": "Ακολουθήστε μας"
+  },
+  "empty": "θα προστεθεί",
+  "legal": [
+   "Στοιχεία εταιρείας",
+   "Απόρρητο",
+   "Όροι"
+  ],
+  "draft": "Τα νομικά κείμενα είναι πρόχειρα και θέλουν έλεγχο από επαγγελματία.",
+  "chat": "Συνομιλία",
+  "chatHi": "Γεια σας! Ρωτήστε για κράτηση, διαδρομές ή επικοινωνία.",
+  "chatIn": "Γράψτε ένα μήνυμα",
+  "chatSend": "Αποστολή",
+  "q": [
+   "Κράτηση",
+   "Διαδρομές",
+   "Επικοινωνία"
+  ],
+  "bot": {
+   "book": [
+    "Χρησιμοποιήστε τη φόρμα αιτήματος. Θέλει δύο λεπτά.",
+    "book"
+   ],
+   "price": [
+    "Η τιμή εξαρτάται από τη διαδρομή. Στείλτε αίτημα και τη μαθαίνετε πριν επιβεβαιώσετε.",
+    "book"
+   ],
+   "air": [
+    "Οι παραλαβές από αεροδρόμιο είναι η βασική μας υπηρεσία. Δείτε τις διαδρομές.",
+    "routes"
+   ],
+   "contact": [
+    "Εδώ είναι τα στοιχεία επικοινωνίας.",
+    "contact"
+   ],
+   "bag": [
+    "Γράψτε τον αριθμό αποσκευών στη φόρμα για να στείλουμε το σωστό όχημα.",
+    "book"
+   ],
+   "child": [
+    "Γράψτε τις ηλικίες των παιδιών στις σημειώσεις και επιβεβαιώνουμε τα καθίσματα.",
+    "book"
+   ],
+   "def": [
+    "Μπορώ να βοηθήσω με κράτηση, διαδρομές και επικοινωνία. Ποιο θέλετε;",
+    "home"
+   ]
+  },
+  "kw": {
+   "book": "κράτ|κρατ|book|reserv",
+   "price": "τιμή|τιμη|κόστος|κοστος|πόσο|ποσο|price",
+   "air": "αεροδρ|πτήση|πτηση|λιμάνι|λιμανι|airport",
+   "contact": "επικοιν|τηλέφ|τηλεφ|email|contact",
+   "bag": "αποσκευ|βαλίτσ|βαλιτσ|bag",
+   "child": "παιδ|μωρ|child"
+  },
+  "seo": {
+   "home": [
+    "Ιδιωτικές μεταφορές στην Κρήτη | Senad Transporti",
+    "Μεταφορές από αεροδρόμιο, λιμάνι και ξενοδοχείο σε όλη την Κρήτη με τοπικό οδηγό. Ζητήστε μεταφορά online."
+   ],
+   "services": [
+    "Υπηρεσίες μεταφοράς στην Κρήτη | Senad Transporti",
+    "Μεταφορές αεροδρομίου, από ξενοδοχείο σε ξενοδοχείο, εκδρομές και οδηγός ανά ώρα στην Κρήτη."
+   ],
+   "routes": [
+    "Διαδρομές μεταφοράς στην Κρήτη | Senad Transporti",
+    "Δημοφιλείς διαδρομές από τα αεροδρόμια Ηρακλείου και Χανίων προς τους κύριους προορισμούς."
+   ],
+   "book": [
+    "Ζητήστε μεταφορά στην Κρήτη | Senad Transporti",
+    "Στείλτε τα στοιχεία της διαδρομής και μάθετε την τιμή πριν επιβεβαιώσετε."
+   ],
+   "about": [
+    "Σχετικά με τη Senad Transporti",
+    "Τοπικοί οδηγοί για μεταφορές σε όλη την Κρήτη."
+   ],
+   "faq": [
+    "Ερωτήσεις για μεταφορές | Senad Transporti",
+    "Απαντήσεις για κράτηση, αλλαγές, αποσκευές, παιδικά καθίσματα και πληρωμή."
+   ],
+   "contact": [
+    "Επικοινωνία Senad Transporti",
+    "Τηλέφωνο, email και σελίδες κοινωνικών δικτύων της Senad Transporti στην Κρήτη."
+   ]
+  },
+  "lg": [
+   "Αεροδρόμιο",
+   "Πόλη",
+   "Η βάση μας"
+  ],
+  "whereT": "Πού βρισκόμαστε",
+  "mapnote": "σχηματικός χάρτης",
+  "ph": "Φωτογραφία: θα προστεθεί",
+  "alt": [
+   "Γαλαζοπράσινος κόλπος στην ακτή της Κρήτης",
+   "Ενετικός φάρος στο λιμάνι των Χανίων",
+   "Ορεινός δρόμος στην Κρήτη"
+  ],
+  "crete": "Κρήτη"
+ },
+ "de": {
+  "nav": {
+   "home": "Start",
+   "services": "Leistungen",
+   "routes": "Strecken",
+   "book": "Buchen",
+   "about": "Über uns",
+   "faq": "FAQ",
+   "contact": "Kontakt"
+  },
+  "places": [
+   "Chania",
+   "Rethymno",
+   "Heraklion",
+   "Agios Nikolaos",
+   "Sitia"
+  ],
+  "her": "Flughafen Heraklion",
+  "chq": "Flughafen Chania",
+  "port": "Hafen Heraklion",
+  "h1": "Privattransfers auf ganz Kreta",
+  "hsub": "Abholung am Flughafen, im Hafen und am Hotel mit einem Fahrer von hier. Transfer in zwei Minuten anfragen.",
+  "cta": "Transfer anfragen",
+  "cta2": "Strecken ansehen",
+  "v": [
+   [
+    "Preis vorab",
+    "Sie kennen den Preis, bevor Sie bestätigen."
+   ],
+   [
+    "Fahrer in der Ankunftshalle",
+    "Ihr Fahrer wartet am Treffpunkt."
+   ],
+   [
+    "4 Sprachen",
+    "Wir antworten auf Griechisch, Englisch, Deutsch und Russisch."
+   ]
+  ],
+  "hs": "Unsere Leistungen",
+  "hsd": "Entwurf. Die endgültigen Leistungen werden mit der Firma abgestimmt.",
+  "s": [
+   [
+    "Flughafen- und Hafentransfer",
+    "Flughäfen Heraklion, Chania und Sitia sowie die wichtigsten Häfen."
+   ],
+   [
+    "Hotel zu Hotel",
+    "Von Tür zu Tür auf der ganzen Insel."
+   ],
+   [
+    "Ausflüge",
+    "Tagestouren mit einem Fahrer, der die Straßen kennt."
+   ],
+   [
+    "Fahrer pro Stunde",
+    "Auto und Fahrer für Ihren eigenen Plan."
+   ]
+  ],
+  "veh": "Fahrzeuge",
+  "vl": [
+   "Pkw",
+   "Minivan",
+   "Minibus"
+  ],
+  "rt": "Beliebte Strecken",
+  "rsub": "Strecke wählen und Anfrage senden. Den Preis erhalten Sie vor der Bestätigung.",
+  "rq": "Diese Strecke anfragen",
+  "routes": [
+   [
+    "her",
+    "Chersonissos"
+   ],
+   [
+    "her",
+    "Agios Nikolaos"
+   ],
+   [
+    "chq",
+    "Rethymno"
+   ],
+   [
+    "chq",
+    "Chania"
+   ],
+   [
+    "port",
+    "her"
+   ],
+   [
+    "her",
+    "Heraklion"
+   ]
+  ],
+  "bt": "Transfer anfragen",
+  "bsub": "Formular ausfüllen. Wir antworten mit dem Preis und bestätigen die Buchung.",
+  "f": {
+   "from": "Von",
+   "to": "Nach",
+   "date": "Datum",
+   "time": "Uhrzeit",
+   "pax": "Personen",
+   "bags": "Gepäckstücke",
+   "name": "Name",
+   "email": "E-Mail",
+   "phone": "Telefon",
+   "lang": "Ihre Sprache",
+   "note": "Hinweise (Flugnummer, Kindersitze)"
+  },
+  "send": "Anfrage senden",
+  "sent": "Demo: Das Formular sendet und speichert noch nichts.",
+  "at": "Über uns",
+  "ap1": "Senad und sein Team fahren Gäste durch ganz Kreta.",
+  "ap2": "Hier stehen Firmengeschichte, Erfahrung und Lizenznummer, sobald der Kunde sie liefert.",
+  "ft": "Fragen",
+  "faq": [
+   [
+    "Wie buche ich?",
+    "Senden Sie das Anfrageformular. Wir antworten mit dem Preis und bestätigen die Fahrt."
+   ],
+   [
+    "Kann ich die Buchung ändern?",
+    "Schreiben Sie uns die neuen Angaben, wir bestätigen die Änderung."
+   ],
+   [
+    "Gibt es Kindersitze?",
+    "Nennen Sie das Alter der Kinder in den Hinweisen, wir bestätigen."
+   ],
+   [
+    "Wie viel Gepäck passt mit?",
+    "Geben Sie die Zahl der Gepäckstücke im Formular an, damit wir das richtige Fahrzeug schicken."
+   ],
+   [
+    "Wie bezahle ich?",
+    "Die Zahlungsart steht in Ihrer Buchungsbestätigung."
+   ]
+  ],
+  "ct": "Kontakt",
+  "cl": {
+   "phone": "Telefon",
+   "email": "E-Mail",
+   "addr": "Adresse",
+   "hours": "Öffnungszeiten",
+   "soc": "Folgen Sie uns"
+  },
+  "empty": "wird ergänzt",
+  "legal": [
+   "Impressum",
+   "Datenschutz",
+   "AGB"
+  ],
+  "draft": "Die Rechtstexte sind Entwürfe und müssen von einem Fachmann geprüft werden.",
+  "chat": "Chat",
+  "chatHi": "Hallo! Fragen Sie nach Buchung, Strecken oder Kontakt.",
+  "chatIn": "Nachricht schreiben",
+  "chatSend": "Senden",
+  "q": [
+   "Buchen",
+   "Strecken",
+   "Kontakt"
+  ],
+  "bot": {
+   "book": [
+    "Nutzen Sie das Anfrageformular. Es dauert zwei Minuten.",
+    "book"
+   ],
+   "price": [
+    "Der Preis hängt von der Strecke ab. Senden Sie eine Anfrage, dann erhalten Sie ihn vor der Bestätigung.",
+    "book"
+   ],
+   "air": [
+    "Abholung am Flughafen ist unsere Hauptleistung. Sehen Sie die Strecken.",
+    "routes"
+   ],
+   "contact": [
+    "Hier sind die Kontaktdaten.",
+    "contact"
+   ],
+   "bag": [
+    "Geben Sie die Zahl der Gepäckstücke im Formular an, dann schicken wir das richtige Fahrzeug.",
+    "book"
+   ],
+   "child": [
+    "Schreiben Sie das Alter der Kinder in die Hinweise, wir bestätigen Kindersitze.",
+    "book"
+   ],
+   "def": [
+    "Ich helfe bei Buchung, Strecken und Kontakt. Was möchten Sie?",
+    "home"
+   ]
+  },
+  "kw": {
+   "book": "buch|reserv|anfrage|book",
+   "price": "preis|kost|wie viel|price",
+   "air": "flughafen|flug|hafen|airport",
+   "contact": "kontakt|telefon|mail|anruf|contact",
+   "bag": "gepäck|gepack|koffer|bag",
+   "child": "kind|baby|child"
+  },
+  "seo": {
+   "home": [
+    "Privattransfers auf Kreta | Senad Transporti",
+    "Flughafen-, Hafen- und Hoteltransfers auf ganz Kreta mit einem Fahrer von hier. Transfer online anfragen."
+   ],
+   "services": [
+    "Transferleistungen auf Kreta | Senad Transporti",
+    "Flughafentransfer, Hotel zu Hotel, Ausflüge und Fahrer pro Stunde auf Kreta."
+   ],
+   "routes": [
+    "Transferstrecken auf Kreta | Senad Transporti",
+    "Beliebte Strecken ab den Flughäfen Heraklion und Chania zu den wichtigsten Orten."
+   ],
+   "book": [
+    "Transfer auf Kreta anfragen | Senad Transporti",
+    "Reisedaten senden und den Preis vor der Bestätigung erhalten."
+   ],
+   "about": [
+    "Über Senad Transporti",
+    "Fahrer von hier für Transfers auf ganz Kreta."
+   ],
+   "faq": [
+    "Fragen zum Transfer | Senad Transporti",
+    "Antworten zu Buchung, Änderung, Gepäck, Kindersitzen und Zahlung."
+   ],
+   "contact": [
+    "Kontakt Senad Transporti",
+    "Telefon, E-Mail und Social-Media-Seiten von Senad Transporti auf Kreta."
+   ]
+  },
+  "lg": [
+   "Flughafen",
+   "Ort",
+   "Unser Standort"
+  ],
+  "whereT": "Wo wir sind",
+  "mapnote": "schematische Karte",
+  "ph": "Foto: wird ergänzt",
+  "alt": [
+   "Türkisfarbene Bucht an der Küste Kretas",
+   "Venezianischer Leuchtturm im Hafen von Chania",
+   "Bergstraße auf Kreta"
+  ],
+  "crete": "Kreta"
+ },
+ "ru": {
+  "nav": {
+   "home": "Главная",
+   "services": "Услуги",
+   "routes": "Маршруты",
+   "book": "Заказ",
+   "about": "О нас",
+   "faq": "Вопросы",
+   "contact": "Контакты"
+  },
+  "places": [
+   "Ханья",
+   "Ретимно",
+   "Ираклион",
+   "Агиос-Николаос",
+   "Сития"
+  ],
+  "her": "Аэропорт Ираклиона",
+  "chq": "Аэропорт Ханьи",
+  "port": "Порт Ираклиона",
+  "h1": "Частные трансферы по всему Криту",
+  "hsub": "Встреча в аэропорту, порту и у отеля, водитель местный. Заявка на трансфер занимает две минуты.",
+  "cta": "Заказать трансфер",
+  "cta2": "Смотреть маршруты",
+  "v": [
+   [
+    "Сначала цена",
+    "Вы узнаёте цену до подтверждения поездки."
+   ],
+   [
+    "Водитель в зале прилёта",
+    "Ваш водитель ждёт в месте встречи."
+   ],
+   [
+    "4 языка",
+    "Отвечаем на греческом, английском, немецком и русском."
+   ]
+  ],
+  "hs": "Наши услуги",
+  "hsd": "Черновик списка. Окончательные услуги согласуем с компанией.",
+  "s": [
+   [
+    "Трансферы из аэропорта и порта",
+    "Аэропорты Ираклиона, Ханьи и Ситии и основные порты."
+   ],
+   [
+    "Из отеля в отель",
+    "От двери до двери по всему острову."
+   ],
+   [
+    "Экскурсии",
+    "Однодневные поездки с водителем, который знает дороги."
+   ],
+   [
+    "Водитель на час",
+    "Машина и водитель для вашего плана."
+   ]
+  ],
+  "veh": "Автомобили",
+  "vl": [
+   "Легковой",
+   "Минивэн",
+   "Микроавтобус"
+  ],
+  "rt": "Популярные маршруты",
+  "rsub": "Выберите маршрут и отправьте заявку. Цену пришлём до подтверждения.",
+  "rq": "Заказать этот маршрут",
+  "routes": [
+   [
+    "her",
+    "Херсонисос"
+   ],
+   [
+    "her",
+    "Агиос-Николаос"
+   ],
+   [
+    "chq",
+    "Ретимно"
+   ],
+   [
+    "chq",
+    "Ханья"
+   ],
+   [
+    "port",
+    "her"
+   ],
+   [
+    "her",
+    "Ираклион"
+   ]
+  ],
+  "bt": "Заказать трансфер",
+  "bsub": "Заполните форму. Мы ответим с ценой и подтвердим заказ.",
+  "f": {
+   "from": "Откуда",
+   "to": "Куда",
+   "date": "Дата",
+   "time": "Время",
+   "pax": "Пассажиры",
+   "bags": "Багаж",
+   "name": "Имя",
+   "email": "Email",
+   "phone": "Телефон",
+   "lang": "Ваш язык",
+   "note": "Примечания (рейс, детские кресла)"
+  },
+  "send": "Отправить заявку",
+  "sent": "Демо: форма пока ничего не отправляет и не сохраняет.",
+  "at": "О нас",
+  "ap1": "Сенад и его команда возят гостей по всему Криту.",
+  "ap2": "Здесь будут история компании, опыт и номер лицензии, когда их предоставит клиент.",
+  "ft": "Вопросы",
+  "faq": [
+   [
+    "Как заказать?",
+    "Отправьте форму заявки. Мы ответим с ценой и подтвердим поездку."
+   ],
+   [
+    "Можно изменить заказ?",
+    "Напишите новые данные, и мы подтвердим изменение."
+   ],
+   [
+    "Есть детские кресла?",
+    "Укажите возраст детей в примечаниях, и мы подтвердим."
+   ],
+   [
+    "Сколько багажа можно взять?",
+    "Укажите число мест багажа в форме, чтобы мы прислали подходящий автомобиль."
+   ],
+   [
+    "Как оплатить?",
+    "Способ оплаты указан в подтверждении заказа."
+   ]
+  ],
+  "ct": "Контакты",
+  "cl": {
+   "phone": "Телефон",
+   "email": "Email",
+   "addr": "Адрес",
+   "hours": "Часы работы",
+   "soc": "Мы в соцсетях"
+  },
+  "empty": "будет добавлено",
+  "legal": [
+   "Реквизиты",
+   "Конфиденциальность",
+   "Условия"
+  ],
+  "draft": "Юридические тексты — черновики, их должен проверить специалист.",
+  "chat": "Чат",
+  "chatHi": "Здравствуйте! Спросите о заказе, маршрутах или контактах.",
+  "chatIn": "Напишите сообщение",
+  "chatSend": "Отправить",
+  "q": [
+   "Заказ",
+   "Маршруты",
+   "Контакты"
+  ],
+  "bot": {
+   "book": [
+    "Воспользуйтесь формой заявки. Это займёт две минуты.",
+    "book"
+   ],
+   "price": [
+    "Цена зависит от маршрута. Отправьте заявку, и вы узнаете её до подтверждения.",
+    "book"
+   ],
+   "air": [
+    "Встреча в аэропорту — наша основная услуга. Посмотрите маршруты.",
+    "routes"
+   ],
+   "contact": [
+    "Вот контактные данные.",
+    "contact"
+   ],
+   "bag": [
+    "Укажите число мест багажа в форме, и мы пришлём подходящий автомобиль.",
+    "book"
+   ],
+   "child": [
+    "Напишите возраст детей в примечаниях, и мы подтвердим детские кресла.",
+    "book"
+   ],
+   "def": [
+    "Я помогу с заказом, маршрутами и контактами. Что вас интересует?",
+    "home"
+   ]
+  },
+  "kw": {
+   "book": "заказ|брон|book",
+   "price": "цен|стоим|сколько|price",
+   "air": "аэропорт|рейс|порт",
+   "contact": "контакт|телефон|почт|email",
+   "bag": "багаж|чемодан|bag",
+   "child": "дет|ребен|ребён|кресл|child"
+  },
+  "seo": {
+   "home": [
+    "Частные трансферы на Крите | Senad Transporti",
+    "Трансферы из аэропорта, порта и от отеля по всему Криту с местным водителем. Закажите трансфер онлайн."
+   ],
+   "services": [
+    "Услуги трансфера на Крите | Senad Transporti",
+    "Трансфер из аэропорта, из отеля в отель, экскурсии и водитель на час на Крите."
+   ],
+   "routes": [
+    "Маршруты трансфера на Крите | Senad Transporti",
+    "Популярные маршруты из аэропортов Ираклиона и Ханьи к главным курортам."
+   ],
+   "book": [
+    "Заказать трансфер на Крите | Senad Transporti",
+    "Отправьте данные поездки и узнайте цену до подтверждения."
+   ],
+   "about": [
+    "О Senad Transporti",
+    "Местные водители для трансферов по всему Криту."
+   ],
+   "faq": [
+    "Вопросы о трансфере | Senad Transporti",
+    "Ответы о заказе, изменениях, багаже, детских креслах и оплате."
+   ],
+   "contact": [
+    "Контакты Senad Transporti",
+    "Телефон, email и страницы в соцсетях Senad Transporti на Крите."
+   ]
+  },
+  "lg": [
+   "Аэропорт",
+   "Город",
+   "Наш офис"
+  ],
+  "whereT": "Где мы находимся",
+  "mapnote": "схематичная карта",
+  "ph": "Фото: будет добавлено",
+  "alt": [
+   "Бирюзовая бухта на побережье Крита",
+   "Венецианский маяк в гавани Ханьи",
+   "Горная дорога на Крите"
+  ],
+  "crete": "Крит"
+ }
+}

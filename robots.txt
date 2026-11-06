@@ -1,4 +1,3 @@
+# Sito nascosto a Google fino al lancio: ogni pagina ha noindex. Al lancio NOINDEX = false in src/config.ts
 User-agent: *
 Allow: /
-
-Sitemap: https://transporti.gealoalor.com/sitemap.xml
